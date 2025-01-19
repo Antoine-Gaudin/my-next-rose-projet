@@ -1,0 +1,27 @@
+/* Styles pour aligner les images dans Home.module.css */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  gap: 10px; /* Espace entre les images menu1 et menu2 */
+}
+
+.menu img {
+  cursor: pointer;
+}
+
+/* Exemple de style pour les images */
+.image {
+  max-height: 50px; /* Ajustez la hauteur selon vos besoins */
+  max-width: auto; /* Garder les proportions */
+}

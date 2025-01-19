@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  color: #000000;
+  background: #f8f4ec;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: 'Tangerine', cursive;
+  font-size: 2.5rem !important;
+}
+
+p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.slides img{
+  width: 100%;
+  margin-top: 65px;
+}
+
+
+/* Styles pour aligner les images dans globals.css */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column; /* Aligne les images verticalement */
+  align-items: flex-end; /* Positionne les images à droite */
+  gap: 10px; /* Espace entre les images menu1 et menu2 */
+}
+
+.menu img {
+  cursor: pointer;
+  transform: scale(1.2); /* Augmente la taille par 3 */
+}
+
+/* Global Styles for the Box Page */
+/*
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  padding: 20px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px; 
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f0f0f0; 
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.block:hover {
+  transform: scale(1.05); 
+  background-color: #dcdcdc; 
+}
+
+.large {
+  grid-column: span 3; 
+  height: 200px; 
+}
+
+.list-objet {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.list-objet h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.list-objet ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-objet li {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #eaeaea;
+  border-radius: 4px;
+}
+*/
