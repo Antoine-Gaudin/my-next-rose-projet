@@ -24,6 +24,18 @@ export default function ObjectCulturels() {
           priority
         />
 
+<div
+  className="absolute top-[10%] left-[52%] w-[25%] h-[50px] transform -translate-y-[50%] -translate-x-[50%] cursor-pointer"
+>
+  <a
+    href="/wordte/doc1 bis  exemple formation.docx"
+    download
+    className="block w-full h-full"
+  >
+    <span className="sr-only">Télécharger le document</span>
+  </a>
+</div>
+
         {/* Lien centré verticalement sur l'image et positionné à droite */}
         <div className="absolute top-[40%] right-[12%] transform -translate-y-[40%]">
           <a

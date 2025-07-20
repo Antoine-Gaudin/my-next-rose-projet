@@ -27,6 +27,20 @@ export default function QuiSommesNous() {
         />
     </div>
        
+    <div
+  className="absolute top-[104%] left-[50%] w-[45%] h-[150px] transform -translate-y-[50%] -translate-x-[50%] cursor-pointer"
+>
+  <a
+    href="/wordte/Doc13_ObJets_Culturels_Albums_ABC_Cultures_Full_Expanded_Final.docx"
+    download
+    className="block w-full h-full"
+  >
+    <span className="sr-only">Télécharger le document</span>
+  </a>
+</div>
+
+
+
         {/* Flèche centrée horizontalement et en bas de l’image */}
         <div className="absolute bottom-26 left-1/2 transform -translate-x-1/2 p-2 rounded-full">
           <Fleche prevPath = "/histoire-enfant" nextPath = "/votre-box"/>

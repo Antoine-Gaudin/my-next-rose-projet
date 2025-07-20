@@ -24,6 +24,18 @@ export default function ObjectMultiple() {
           priority
         />
 
+<div
+  className="absolute top-[75%] left-[15%] w-[25%] h-[350px] transform -translate-y-[50%] -translate-x-[50%] cursor-pointer"
+>
+  <a
+    href="/wordte/Doc6 Fiche_Definition_Culture_Materielle_et_Influence_Pedagogiques - Copie.docx"
+    download
+    className="block w-full h-full"
+  >
+    <span className="sr-only">Télécharger le document</span>
+  </a>
+</div>
+
         {/* Flèche centrée horizontalement et en bas de l’image */}
         <div className="absolute bottom-26 left-1/2 transform -translate-x-1/2 p-2 rounded-full">
           <Fleche prevPath="/nos-objects-culturels" nextPath="/histoire-enfant" />

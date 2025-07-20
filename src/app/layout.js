@@ -2,8 +2,11 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Rose marie",
-  description: "Site avant premier jet ",
+  title: "ABC Cultures",
+  description: "ABC CULTURES : un concept où la recherche ethnographique rencontre la pédagogie ",
+  icons: {
+    icon: "/logocultu.png", // ← adapte si tu utilises .png ou .svg
+  },
 };
 
 export default function RootLayout({ children }) {
