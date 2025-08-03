@@ -14,7 +14,7 @@ export default function QuiSommesNous() {
 
   const handleDownload1 = () => {
     const link = document.createElement("a");
-    link.href = "/wordte/doc7 Histoire réelle_Histoire_Poupée_Cultures_ABC_Cultures.docx";
+    link.href = "/wordte/doc7 Histoire réelle_Histoire_Poupée_Cultures_ABC_Cultures.pdf";
     link.download = "";
     document.body.appendChild(link);
     link.click();
@@ -23,7 +23,7 @@ export default function QuiSommesNous() {
 
   const handleDownload2 = () => {
     const link = document.createElement("a");
-    link.href = "/wordte/doc7 Histoire réelle_Histoire_Poupée_Cultures_ABC_Cultures.docx";
+    link.href = "/wordte/doc7 Histoire réelle_Histoire_Poupée_Cultures_ABC_Cultures.pdf";
     link.download = "";
     document.body.appendChild(link);
     link.click();

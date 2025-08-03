@@ -24,17 +24,26 @@ export default function ObjectCulturels() {
           priority
         />
 
-<div
-  className="absolute top-[10%] left-[52%] w-[25%] h-[50px] transform -translate-y-[50%] -translate-x-[50%] cursor-pointer"
->
-  <a
-    href="/wordte/doc1 bis  exemple formation.docx"
-    download
-    className="block w-full h-full"
-  >
-    <span className="sr-only">Télécharger le document</span>
-  </a>
-</div>
+      {/* Conteneur des liens de téléchargement */}
+      <div className="absolute top-[80%] right-[10%] w-[15%] max-w-[350px] md:w-[50%] lg:w-[50%] flex flex-col space-y-4">
+        {/* Lien de téléchargement 1 */}
+        <a
+          href="/wordte/doc1_Formation_ABC_Cultures_Activites.pdf"
+          target="_blank"
+          className="w-full px-6 py-4 bg-white border-4 border-blue-600 text-blue-700 text-lg font-bold text-center rounded-lg hover:bg-blue-100 transition-all"
+        >
+          Activités de formations
+        </a>
+
+        {/* Lien de téléchargement 2 */}
+        <a
+          href="/wordte/Doc1 bis exemple formation.pdf"
+          target="_blank"
+          className="w-full px-6 py-4 bg-white border-4 border-blue-600 text-blue-700 text-lg font-bold text-center rounded-lg hover:bg-blue-100 transition-all"
+        >
+          Fiches pédagogiques
+        </a>
+      </div>
 
         {/* Lien centré verticalement sur l'image et positionné à droite */}
         <div className="absolute top-[40%] right-[12%] transform -translate-y-[40%]">

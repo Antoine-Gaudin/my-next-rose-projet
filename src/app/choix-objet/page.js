@@ -31,7 +31,7 @@ export default function QuiSommesNous() {
   className="absolute top-[104%] left-[50%] w-[45%] h-[150px] transform -translate-y-[50%] -translate-x-[50%] cursor-pointer"
 >
   <a
-    href="/wordte/Doc13_ObJets_Culturels_Albums_ABC_Cultures_Full_Expanded_Final.docx"
+    href="/wordte/Doc13_ObJets_Culturels_Albums_ABC_Cultures_Full_Expanded_Final.pdf"
     download
     className="block w-full h-full"
   >

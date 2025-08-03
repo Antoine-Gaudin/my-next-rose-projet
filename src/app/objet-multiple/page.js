@@ -28,7 +28,7 @@ export default function ObjectMultiple() {
   className="absolute top-[75%] left-[15%] w-[25%] h-[350px] transform -translate-y-[50%] -translate-x-[50%] cursor-pointer"
 >
   <a
-    href="/wordte/Doc6 Fiche_Definition_Culture_Materielle_et_Influence_Pedagogiques - Copie.docx"
+    href="/wordte/Doc6 Fiche_Definition_Culture_Materielle_et_Influence_Pedagogiques.pdf"
     download
     className="block w-full h-full"
   >

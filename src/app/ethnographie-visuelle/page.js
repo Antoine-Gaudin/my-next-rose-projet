@@ -25,17 +25,28 @@ export default function QuiSommesNous() {
         />
     </div>
 
-    <div
-  className="absolute top-[95%] left-[22%] w-[35%] h-[50px] transform -translate-y-[50%] -translate-x-[50%] cursor-pointer"
->
-  <a
-    href="/wordte/Doc4 Ethnographie_Visuelle_En_Milieu_Scolaire.docx"
-    download
-    className="block w-full h-full"
-  >
-    <span className="sr-only">Télécharger le document</span>
-  </a>
-</div>
+        {/* Conteneur des liens de téléchargement */}
+        <div className="absolute top-[102%] left-[10%] w-[15%] max-w-[350px] md:w-[50%] lg:w-[50%] flex flex-col space-y-4">
+
+          {/* Lien de téléchargement 1 */}
+          <a
+            href="/wordte/Doc4 Ethnographie_Visuelle_En_Milieu_Scolaire.pdf"
+                target="_blank"
+            className="w-full px-6 py-4 bg-white border-4 border-blue-600 text-blue-700 text-lg font-bold text-center rounded-lg hover:bg-blue-100 transition-all"
+          >
+            Ethnographie visuel
+          </a>
+
+          {/* Lien de téléchargement 2 */}
+          <a
+            href="/wordte/doc5_Article_Metamorphose_de_la_Tradition_Cargo_with_Rougeon_Article_Corrected_v3.pdf"
+        target="_blank"
+            className="w-full px-6 py-4 bg-white border-4 border-blue-600 text-blue-700 text-lg font-bold text-center rounded-lg hover:bg-blue-100 transition-all"
+          >
+            Méthamorphose de la tradition
+          </a>
+
+        </div>
        
         {/* Flèche centrée horizontalement et en bas de l’image */}
         <div className="absolute bottom-26 left-1/2 transform -translate-x-1/2 p-2 rounded-full">

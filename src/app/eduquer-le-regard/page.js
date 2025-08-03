@@ -79,6 +79,20 @@ export default function Pedagogie() {
         </div>
       </div>
 
+
+<div
+  className="absolute top-[115%] left-[20%] w-[20%] h-[50px] transform -translate-y-[50%] -translate-x-[50%] cursor-pointer"
+>
+  <a
+    href="/wordte/doc3 Personnages_ABC_Cultures.pdf"
+  target="_blank"
+    className="block w-full h-full"
+  >
+    <span className="sr-only">Télécharger le document</span>
+  </a>
+</div>
+
+
       {/* Flèche centrée en bas */}
       <div className="absolute bottom-26 left-1/2 transform -translate-x-1/2 p-2 rounded-full">
         <Fleche prevPath="/ethnographie-visuelle" />
