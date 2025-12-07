@@ -53,6 +53,18 @@ export default function Home() {
           DES OBJETS CULTURELS POUR LES ENFANTS DE 6 À 9 ANS
         </Link>
       </div>
+
+            {/* Zone 6 - Ajustée plus haut et à droite avec plus de largeur */}
+      <div className="absolute top-[53%] right-[37%]">
+        <Link 
+    href="https://drive.google.com/drive/folders/1h4QsXYNc7XgtxOzHm4aHd3ywXWzIdAAM?usp=drive_link"
+    target="_blank"
+    rel="noopener noreferrer"
+          className="px-16 py-4 bg-blue-600 border-4 border-yellow-400 text-yellow-300 font-bold text-xl rounded-lg hover:bg-blue-700 transition-all text-center"
+        >
+          Télécharger la documentation
+        </Link>
+      </div>
     </div>
   );
 }
