@@ -31,6 +31,11 @@ export default function Pedagogie() {
         {/* Conteneur des liens de téléchargement */}
         <div className="absolute top-[50%] right-[5%] w-[70%] max-w-[800px] md:w-[50%] lg:w-[50%] flex flex-col space-y-4">
 
+          {/* Titre au-dessus des boutons */}
+          <p className="text-center text-lg font-bold text-blue-700">
+            Cliquer sur les boutons pour télécharger
+          </p>
+
           {/* Lien de téléchargement 1 */}
           <a
             href="/wordte/xls1 Liste des Livres et Ressources articles.docx"

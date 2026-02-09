@@ -33,7 +33,7 @@ export default function Pedagogie() {
           target="_blank"
           className="w-full px-6 py-4 bg-white border-4 border-blue-600 text-blue-700 text-lg font-bold text-center rounded-lg hover:bg-blue-100 transition-all"
         >
-          Ethnographie visuel
+          Mode d'évaluation
         </a>
       </div>
 
