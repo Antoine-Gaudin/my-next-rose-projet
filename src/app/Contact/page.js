@@ -16,7 +16,7 @@ export default function ObjectCulturels() {
       <div className="relative w-full">
         {/* Image en arrière-plan */}
         <Image 
-          src="/image/slidev216.png" 
+          src="/image/page_de_contact.png" 
           alt="Qui sommes-nous" 
           width={1920} 
           height={1080} 
@@ -25,7 +25,7 @@ export default function ObjectCulturels() {
         />
 
       {/* Conteneur des liens de téléchargement */}
-      <div className="absolute top-[80%] right-[10%] w-[15%] max-w-[350px] md:w-[50%] lg:w-[50%] flex flex-col space-y-4">
+      <div className="absolute top-[80%] right-[7%] w-[15%] max-w-[350px] md:w-[50%] lg:w-[50%] flex flex-col space-y-4">
         {/* Lien de téléchargement 1 */}
         <a
           href="/wordte/doc1_Formation_ABC_Cultures_Activites.pdf"
@@ -46,7 +46,7 @@ export default function ObjectCulturels() {
       </div>
 
         {/* Lien centré verticalement sur l'image et positionné à droite */}
-        <div className="absolute top-[40%] right-[12%] transform -translate-y-[40%]">
+        <div className="absolute top-[58%] right-[14%] transform -translate-y-[40%]">
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=abc.cultures76@gmail.com"
             target="_blank"
